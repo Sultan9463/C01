@@ -27,11 +27,6 @@ case $choix in
         echo "$nombre1 * $nombre2 = $resultat"
         ;;
     4)
-        # Vérifier la division par zéro
-        if [ "$nombre2" -eq 0 ]; then
-            echo "Erreur : Division par zéro impossible."
-            exit 1
-        fi
         resultat=$((nombre1 / nombre2))
         echo "$nombre1 / $nombre2 = $resultat"
         ;;
