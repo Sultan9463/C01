@@ -12,12 +12,6 @@ echo "3. Multiplication (*)"
 echo "4. Division (/)"
 read -p "Votre choix (1/2/3/4) : " choix
 
-# Vérifier que les entrées sont des nombres
-if ! [[ "$nombre1" =~ ^-?[0-9]+$ ]] || ! [[ "$nombre2" =~ ^-?[0-9]+$ ]]; then
-    echo "Erreur : Veuillez entrer uniquement des nombres."
-    exit 1
-fi
-
 # Effectuer l'opération choisie
 case $choix in
     1)
