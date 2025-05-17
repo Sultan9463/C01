@@ -4,11 +4,11 @@ read -p "Entrez le deuxième nombre B :" B
 read -p "Entrez l'opération (+, -, *, /) :" op
 
 if [ "$op" == "+" ]; then
-    echo "Addition = $(( A + B ))"
+    echo "Résultat = $(( A + B ))"
 elif [ "$op" == "-" ]; then
-    echo "Soustraction = $(( A - B ))"
+    echo "Résultat = $(( A - B ))"
 elif [ "$op" == "*" ]; then
-    echo "Multiplication = $(( A * B ))"
+    echo "Résultat = $(( A * B ))"
 elif [ "$op" == "/" ]; then
-    echo "Division = $(( A / B ))"
+    echo "Résultat = $(( A / B ))"
 fi
