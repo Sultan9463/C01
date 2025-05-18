@@ -1,10 +1,7 @@
 #!/bin/bash
 # Demander à l'utilisateur de saisir les deux nombres et l'opérateur
-echo "Entrez le premier nombre :"
 read num1
-echo "Entrez l'opérateur (+, -, *, /) :"
 read op
-echo "Entrez le second nombre :"
 read num2
 # Effectuer l'opération en fonction de l'opérateur
 case $op in
@@ -22,7 +19,6 @@ case $op in
         ;;
     *)
         echo "Opérateur invalide"
-        exit 1
         ;;
 esac
 
