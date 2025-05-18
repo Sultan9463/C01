@@ -23,4 +23,4 @@ case $op in
 esac
 
 # Afficher le résultat
-echo "Le résultat est : $result"
+echo "Résultat est :$result"
