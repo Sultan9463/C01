@@ -1,8 +1,9 @@
 #!/bin/bash
 #afficher chaque argument avec son numero
 read -a "args"
+args="($@)"
 i=1
 for arg in "${args["@"]}"; do 
-echo "Argument $i: $args"
+echo "Argument $i: $arg"
 ((i++))
 done 
