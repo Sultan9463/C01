@@ -10,6 +10,6 @@ fi
 # Affichage des arguments
 i=1
 for arg in "${args[@]}"; do
-    echo "Argument $i: $arg"
+    echo "Argument $i:$arg"
     ((i++))
 done
