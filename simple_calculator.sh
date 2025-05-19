@@ -11,13 +11,6 @@ fi
 nombre1=$1
 nombre2=$2
 operateur=$3
-
-# Vérification que les nombres sont bien des entiers
-if ! [[ "$nombre1" =~ ^-?[0-9]+$ ]] || ! [[ "$nombre2" =~ ^-?[0-9]+$ ]]; then
-    echo "Erreur : les deux premiers arguments doivent être des nombres entiers."
-    exit 1
-fi
-
 # Calcul en fonction de l'opérateur
 case "$operateur" in
     +)
@@ -43,4 +36,4 @@ case "$operateur" in
 esac
 
 # Affichage du résultat
-echo "Résultat : $resultat"
+echo "Résultat: $resultat"
