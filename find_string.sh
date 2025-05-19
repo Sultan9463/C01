@@ -1,6 +1,6 @@
 #!/bin/bash
-read -p "Entrez le nom du fichier : " fichier
-read -p "Entrez la chaîne à rechercher : " chaine
+read -p "Entrez le nom du fichier :"fichier
+read -p "Entrez la chaîne à rechercher :"chaine
 # Vérifie si le fichier existe avant de rechercher
 if [[ -f "$fichier" ]]; then
     # Recherche de la chaîne avec affichage des numéros de ligne
